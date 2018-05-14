@@ -102,3 +102,14 @@ public class Counter extends JFrame {
 				}
 			});
 		}
+public static void main(String[] args) {
+		/**
+		 * Создаем объект класса Counter (калькулятора):
+		 */
+	Counter calc = new Counter();
+		/**
+		 * Запускаем окно калькулятора:
+		 */
+	calc.setVisible(true);
+	}
+}
